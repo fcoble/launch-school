@@ -1,0 +1,20 @@
+START
+
+# Given a function that takes an array of string primitives as an argument named theStrings
+
+SET iterator = 0
+SET combinedString = ''
+
+WHILE iterator <= length of numbers
+  SET combinedString = combinedString + the value within collection at space iterator
+
+RETURN combinedString
+
+END
+
+
+
+
+
+
+

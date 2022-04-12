@@ -1,0 +1,13 @@
+START
+
+# Given two input parameters that are numbers
+
+SET number1 = value from parameter 1
+SET number2 = value from parameter 2
+
+SET sum = number1 + number2
+
+RETURN sum
+
+END
+
