@@ -1,0 +1,13 @@
+Given a loan amount, APR, and loan durations in years, 
+calculate the monthly interest rate and loan duration in months.
+
+1.) Get input from the user
+  a.) Loan amount - integer
+  b.) APR (Annual Percentage Rate) - integer
+  c.) Loan Duration in years - integer
+2.) Calculate the monthly interest rate by dividing the APR by 12
+3.) Calculate the loan duration in months by dividing the loan years by 12
+3.) Use the monthly interest payment formula to calculate the monthly payment
+4.) Output the monthly payment to the user formatted as dollars and cents
+5.) If the user wishes to calculate different terms, restart the calculator, else quit
+

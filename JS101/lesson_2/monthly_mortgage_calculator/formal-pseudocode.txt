@@ -1,0 +1,13 @@
+START
+
+GET loanAmount, APR, periodInYears
+
+SET monthlyInterestRate = APR / 12
+SET loadDurationInMonths = periodInYears / 12
+
+SET monthlyPayment =
+    loanAmount * (monthlyInterestRate / (1 - Math.pow((1 + monthlyInterestRate), (-loadDurationInMonths))));
+
+SET formattedMonthlyPayment = $ + monthlyPayment.toFixed(2)
+
+PRINT formattedMonthlyPayment 
