@@ -35,11 +35,11 @@ function getLoanAmount() {
 }
 
 function getPeriodInYears() {
-  console.log('Enter the loan period in number of years.');
+  console.log('Enter the loan period, 1 to 30 years:');
   let periodInYears = readline.question();
 
   while (invalidNumber(periodInYears) || periodInYears > 30) {
-    prompt('Oops! Try again. Please enter a valid whole number.');
+    prompt('Oops! Try again. Please enter a valid number of years.');
     periodInYears = readline.question();
   }
 
@@ -50,7 +50,6 @@ console.log('Welcome to the Mortgage Calculator!');
 console.log('***********************************');
 
 while (true) {
-
 
   let loanAmount = getLoanAmount();
   let annualPercentageRate = getPercentageRate();
