@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10",
+    "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.1",
+    "eslint-cli": "^1.1.1"
+  }
+}
